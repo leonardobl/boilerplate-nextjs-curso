@@ -11,7 +11,7 @@
     "test": "jest"
   },
   "lint-staged": {
-    "src/**/*" : [
+    "src/**/*": [
       "yarn lint --fix"
     ]
   },
@@ -38,6 +38,7 @@
     "husky": "^7.0.4",
     "jest": "^27.5.1",
     "lint-staged": "^12.3.7",
+    "mrm": "2",
     "prettier": "2.6.1",
     "typescript": "^4.6.3"
   }

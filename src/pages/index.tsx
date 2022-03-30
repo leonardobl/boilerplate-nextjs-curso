@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 function Home() {
-  const bla = '-var'
+  const bla = 'var'
 
   return (
     <div>
