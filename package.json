@@ -11,8 +11,8 @@
     "test": "jest"
   },
   "lint-staged": {
-    "/src/**/*" : [
-      "yarn lint --fix"
+    "src/**/*" : [
+      "yarn lint"
     ]
   },
   "dependencies": {
