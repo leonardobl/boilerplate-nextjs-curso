@@ -10,7 +10,9 @@
     "prepare": "husky install",
     "test": "jest"
   },
-
+  "lint-staged" : {
+    "src/**/*" : [ "yarn lint --fix" ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "next": "12.1.2",
